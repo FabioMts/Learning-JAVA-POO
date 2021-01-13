@@ -1,8 +1,0 @@
-
-public class conta {
-
-	private int number;
-	private String name;
-	private double balance;
-	
-}
