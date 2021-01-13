@@ -1,0 +1,16 @@
+
+public class conta {
+
+	private int number;
+	private String name;
+	private double balance = 0;
+	
+	
+	
+	public void depositValue(double valor) {
+		this.balance += valor;
+	}
+	
+}
+
+
