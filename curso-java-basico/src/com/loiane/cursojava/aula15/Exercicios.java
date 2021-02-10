@@ -304,45 +304,257 @@ public class Exercicios {
 //
 //		}
 		
+		//EX 14
+//		
+//		System.out.println("Digite sua primeira nota: ");
+//		double nota1 = scan.nextDouble();
+//		System.out.println("Digite sua segunda nota: ");
+//		double nota2 = scan.nextDouble();
+//		
+//		double media = (nota1 + nota2) / 2;
+//		String conceito = "";
+//		
+//		if(media >= 9.0 && media <= 10) {
+//			conceito = "A";
+//		}else if(media >= 7.5 && media < 9) {
+//			conceito = "B";
+//		}else if(media >= 6.0 && media < 7.5) {
+//			conceito = "C";
+//		}else if(media >= 4.0 && media < 6.0) {
+//			conceito = "D";
+//		}else if(media >= 0 && media < 4.0) {
+//			conceito = "E";
+//		}
+//		
+//		
+//		
+//		System.out.println("Nota 1: " + nota1);
+//		System.out.println("Nota 2: " + nota2);
+//		System.out.println("Media: " + media);
+//		System.out.println("Conceito: " + conceito);
+//		
+//		switch(conceito) {
+//		case "A":
+//		case "B": 
+//		case "C": System.out.println("Aprovado"); break;
+//		case "D":
+//		case "E": System.out.println("Reprovado"); break;
+//		
+//		}
 		
-		System.out.println("Digite sua primeira nota: ");
-		double nota1 = scan.nextDouble();
-		System.out.println("Digite sua segunda nota: ");
-		double nota2 = scan.nextDouble();
 		
-		double media = (nota1 + nota2) / 2;
-		String conceito = "";
 		
-		if(media >= 9.0 && media <= 10) {
-			conceito = "A";
-		}else if(media >= 7.5 && media < 9) {
-			conceito = "B";
-		}else if(media >= 6.0 && media < 7.5) {
-			conceito = "C";
-		}else if(media >= 4.0 && media < 6.0) {
-			conceito = "D";
-		}else if(media >= 0 && media < 4.0) {
-			conceito = "E";
+		// EX 15
+		
+//		System.out.println("Digite o primeiro lado do triângulo: ");
+//		double lado1 = scan.nextDouble();
+//		System.out.println("Digite o segundo lado do triângulo: ");
+//		double lado2 = scan.nextDouble();
+//		System.out.println("Digite o terceiro lado do triângulo: ");
+//		double lado3 = scan.nextDouble();
+//		
+//		if( (lado1 > 0 && lado2 > 0 && lado3 > 0) &&
+//			((lado1 + lado2 > lado3) || (lado1 + lado3 > lado2) || (lado2 + lado3 > lado1))
+//		) {
+//			
+//			System.out.println("Os valores informados são um triangulo.");
+//			
+//			if((lado1 == lado2) && (lado1 == lado3) && (lado2 == lado3)) {
+//				System.out.println("É um triangulo Equilátero");
+//				
+//			}else if((lado1 == lado2) || (lado1 == lado3) || (lado2 == lado3)) {
+//				System.out.println("É um triangulo Isósceles");
+//				
+//			}else {
+//				System.out.println("É um triangulo Escaleno");
+//			}
+//		}else {
+//			System.out.println("Os valores informados não são um triangulo.");
+//		}
+		
+		
+		
+		//EX 16
+		
+//		System.out.println("Informe o valor de A: ");
+//		double valorA = scan.nextDouble();
+//		
+//		
+//		
+//		if(valorA == 0) {
+//			System.out.println("A equação não é do segundo grau.");
+//		}
+//		else {
+//			
+//			System.out.println("Informe o valor de B: ");
+//			double valorB = scan.nextDouble();
+//			
+//			System.out.println("Informe o valor de C: ");
+//			double valorC = scan.nextDouble();
+//			
+//			double delta = (valorB*valorB) - (4*valorA*valorC); 
+//				if(delta < 0) {
+//					System.out.println("Delta negativo.");
+//			} else {
+//				
+//				System.out.println("delta: " + delta);
+//				
+//				double x1 = ((-valorB) + Math.sqrt(delta))  / (2*valorA);
+//				double x2 = ((-valorB) - Math.sqrt(delta)) / (2*valorA);
+//				
+//				System.out.println("x1 = " + x1);
+//				System.out.println("x2 = " + x2);
+//				
+//			}
+//		}
+		
+		//EX 17
+		
+//		System.out.println("Informe a data de um ano: ");
+//		int ano = scan.nextInt();
+//		
+//		if((ano % 400 == 0 ) || (ano % 4 == 0 ) && (ano % 100 != 0 )) {
+//			System.out.println("O ano é bissexto.");
+//		} else {
+//			System.out.println("O ano não é bissexto.");
+//		}
+		
+		//EX 18
+		
+//		System.out.println("Informe um número qualquer: ");
+//		int numero = scan.nextInt();
+//		
+//		if(numero % 2 == 0) {
+//			System.out.println("O número é par");
+//		}else {
+//			System.out.println("O número é impár");
+//		}
+//		
+		
+		//EX 19
+		
+//		System.out.println("Informe o primeiro numero: ");
+//		double num1 = scan.nextDouble();
+//		System.out.println("Informe o segundo numero: ");
+//		double num2 = scan.nextDouble();
+//		
+//		System.out.println("Entre com a operação (+ - / *): ");
+//		String operacao = scan.next();
+//		
+//		double resultado = 0;
+//		boolean valida = true;
+//		
+//		switch(operacao) {
+//		case "+": resultado = num1 + num2; break;
+//		case "-": resultado = num1 - num2; break;
+//		case "/": resultado = num1 / num2; break;
+//		case "*": resultado = num1 * num2; break;
+//		default: System.out.println("Operação inválida"); 
+//		valida = false; 
+//		
+//		}
+//		
+//		if(valida) {
+//			
+//			System.out.println("Resultado: " + resultado);
+//			
+//			if(resultado >= 0) {
+//				System.out.println("O resultado é positivo");
+//			}else {
+//				System.out.println("O resultado é negativo");
+//			}
+//			
+//			if(resultado % 2 == 0) {
+//				System.out.println("O resultado é par");
+//			}else {
+//				System.out.println("O resultado é impar");
+//			}
+//		}
+		
+		//EX 20
+		
+//		System.out.println("Telefonou para a vitima?");
+//		String resp1 = scan.next();
+//		System.out.println("Esteve no local do crime?");
+//		String resp2 = scan.next();
+//		System.out.println("Mora perto da vitima?");
+//		String resp3 = scan.next();
+//		System.out.println("Devia para a vitima?");
+//		String resp4 = scan.next();
+//		System.out.println("Ja trabalhou com a vitima?");
+//		String resp5 = scan.next();
+//		
+//		int cont = 0;
+//		
+//		if(resp1.equalsIgnoreCase("S")) {
+//			cont++;
+//		}
+//		if(resp2.equalsIgnoreCase("S")) {
+//			cont++;
+//		}
+//		if(resp3.equalsIgnoreCase("S")) {
+//			cont++;
+//		}
+//		if(resp4.equalsIgnoreCase("S")) {
+//			cont++;
+//		}
+//		if(resp5.equalsIgnoreCase("S")) {
+//			cont++;
+//		}
+//		
+//		if(cont == 1) {
+//			System.out.println("Coincidência");
+//		}if(cont == 2) {
+//			System.out.println("Suspeita");
+//		}else if(cont == 3 || cont == 4) {
+//			System.out.println("Cumplice");
+//		}else if (cont == 5) {
+//			System.out.println("Assassina.");
+//		}else if(cont == 0) {
+//			System.out.println("Inocente");
+//		}
+		
+		
+		
+		//EX 21 
+		
+		System.out.println("Entre com a quantidade de litros vendidos: ");
+		double litros = scan.nextDouble();
+		
+		System.out.println("Entre com o tipo de Combustível (Alcool ou Gasolina): ");
+		String tipo = scan.next();
+		
+		
+		double precoGas = 2.5;
+		double precoAlc = 1.9; 
+		int percDesconto = 0;
+		double total = 0;
+		double totalDesc = 0;
+		
+		
+		if(tipo.equalsIgnoreCase("alcool")) {
+			if (litros <= 20) {
+				percDesconto = 3;
+			}else {
+				percDesconto = 5;
+			}
+			
+			total = litros * precoAlc;
+			
+		}else if(tipo.equalsIgnoreCase("gasolina")) {
+			if (litros <= 20) {
+				percDesconto = 4;
+			}else {
+				percDesconto = 6;
+			}
+			
+			total = litros * precoGas;
 		}
+		totalDesc = (total /100) * percDesconto;
 		
+		double precoAPagar = total - totalDesc;
 		
-		
-		System.out.println("Nota 1: " + nota1);
-		System.out.println("Nota 2: " + nota2);
-		System.out.println("Media: " + media);
-		System.out.println("Conceito: " + conceito);
-		
-		switch(conceito) {
-		case "A":
-		case "B": 
-		case "C": System.out.println("Aprovado"); break;
-		case "D":
-		case "E": System.out.println("Reprovado"); break;
-		
-		}
-		
+		System.out.println("Valor a ser pago: " + precoAPagar);
 	}
-	
 }	
-
 
