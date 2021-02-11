@@ -518,43 +518,136 @@ public class Exercicios {
 		
 		//EX 21 
 		
-		System.out.println("Entre com a quantidade de litros vendidos: ");
-		double litros = scan.nextDouble();
+//		System.out.println("Entre com a quantidade de litros vendidos: ");
+//		double litros = scan.nextDouble();
+//		
+//		System.out.println("Entre com o tipo de Combustível (Alcool ou Gasolina): ");
+//		String tipo = scan.next();
+//		
+//		
+//		double precoGas = 2.5;
+//		double precoAlc = 1.9; 
+//		int percDesconto = 0;
+//		double total = 0;
+//		double totalDesc = 0;
+//		
+//		
+//		if(tipo.equalsIgnoreCase("alcool")) {
+//			if (litros <= 20) {
+//				percDesconto = 3;
+//			}else {
+//				percDesconto = 5;
+//			}
+//			
+//			total = litros * precoAlc;
+//			
+//		}else if(tipo.equalsIgnoreCase("gasolina")) {
+//			if (litros <= 20) {
+//				percDesconto = 4;
+//			}else {
+//				percDesconto = 6;
+//			}
+//			
+//			total = litros * precoGas;
+//		}
+//		totalDesc = (total /100) * percDesconto;
+//		
+//		double precoAPagar = total - totalDesc;
+//		
+//		System.out.println("Valor a ser pago: " + precoAPagar);
 		
-		System.out.println("Entre com o tipo de Combustível (Alcool ou Gasolina): ");
-		String tipo = scan.next();
 		
+		//EX 22
 		
-		double precoGas = 2.5;
-		double precoAlc = 1.9; 
-		int percDesconto = 0;
-		double total = 0;
-		double totalDesc = 0;
+//		System.out.println("quantos kg de morangos comprados?");
+//		double kgMorangos = scan.nextDouble();
+//		System.out.println("quantos kg de maças comprados?");
+//		double kgMacas = scan.nextDouble();
+//		
+//		double precoKgMorango = 0;
+//		if(kgMorangos <= 5) {
+//			precoKgMorango = 2.5;
+//		}else {
+//			precoKgMorango = 2.2;
+//		}
+//		
+//		double precoKgMaca = 0;
+//		if(kgMorangos <= 5) {
+//			precoKgMaca = 1.8;
+//		}else {
+//			precoKgMaca = 1.5;
+//		}
+//		
+//		double precoTotalMorango = kgMorangos * precoKgMorango;
+//		double precoTotalMaca = kgMacas * precoKgMaca;
+//		double precoParcial = precoTotalMorango + precoTotalMaca;
+//		double precoTotal = precoParcial;
+//
+//		if((kgMorangos + kgMacas > 8) || precoTotal > 25) {
+//			
+//			precoTotal = precoParcial -((precoParcial / 100) * 10);
+//			
+//		}
+//		System.out.println("O valor a ser pago será de: " + precoTotal);
+
 		
+		//EX 23
 		
-		if(tipo.equalsIgnoreCase("alcool")) {
-			if (litros <= 20) {
-				percDesconto = 3;
+		System.out.println("Entre com o tipo da carne: ");
+		System.out.println("1 - file duplo");
+		System.out.println("2 - alcatra");
+		System.out.println("3 - picanha");
+		int tipo = scan.nextInt();
+		
+		System.out.println("Entre com a quantidade (kg): ");
+		double qtd = scan.nextDouble();
+		
+		double precoKg = 0;
+		
+		if(tipo == 1) {
+			
+			System.out.println(qtd + "kg - file duplo");
+			
+			if (qtd < 5) {
+				precoKg = 4.9;
 			}else {
-				percDesconto = 5;
+				precoKg = 5.8;
 			}
-			
-			total = litros * precoAlc;
-			
-		}else if(tipo.equalsIgnoreCase("gasolina")) {
-			if (litros <= 20) {
-				percDesconto = 4;
-			}else {
-				percDesconto = 6;
-			}
-			
-			total = litros * precoGas;
 		}
-		totalDesc = (total /100) * percDesconto;
+		if(tipo == 2) {
+			
+			System.out.println(qtd + "kg - alcatra");
+			
+			if (qtd < 5) {
+				precoKg = 5.9;
+			}else {
+				precoKg = 6.8;
+			}
+		}
+		if(tipo == 3) {
+			
+			System.out.println(qtd + "kg - picanha");
+			
+			if (qtd < 5) {
+				precoKg = 6.9;
+			}else {
+				precoKg = 7.8;
+			}
+		}
 		
-		double precoAPagar = total - totalDesc;
+		double total = qtd * precoKg;
+		System.out.println(qtd + "kg - " + precoKg + "$");
 		
-		System.out.println("Valor a ser pago: " + precoAPagar);
+		System.out.println("Compra no cartão? digite 1 para sim: ");
+		int cartao = scan.nextInt();
+		
+		if (cartao == 1) {
+			double desconto = (total / 100) * 5;
+			System.out.println("Desconto de: " + desconto);
+			System.out.println("Valor a pagar: " + (total - desconto));
+		}else {
+			System.out.println("Valor a pagar: " + total);
+		}
 	}
 }	
 
