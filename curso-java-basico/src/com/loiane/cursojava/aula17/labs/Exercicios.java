@@ -352,24 +352,44 @@ public class Exercicios {
 		
 		//ex 14
 		
+//		
+//		int num;
+//		int pares = 0;
+//		int impares = 0;
+//		
+//		for(int i =0; i <= 10; i++) {
+//			System.out.println("Entre com um número");
+//			num = scan.nextInt();
+//			
+//			if (num % 2 ==0) {
+//				pares++;
+//			}else {
+//				impares++;
+//			}
+//		}
+//			System.out.println("Pares: " + pares);
+//			System.out.println("impares: " + impares);
 		
-		int num;
-		int pares = 0;
-		int impares = 0;
 		
-		for(int i =0; i <= 10; i++) {
-			System.out.println("Entre com um número");
-			num = scan.nextInt();
-			
-			if (num % 2 ==0) {
-				pares++;
-			}else {
-				impares++;
-			}
-		}
-			System.out.println("Pares: " + pares);
-			System.out.println("impares: " + impares);
+		// ex 15
 		
+//		System.out.println("Entre com o n-ésimo termo da serie de fibonacci: ");
+//		int n = scan.nextInt();
+//		
+//		int primeiro = 1;
+//		int segundo = 1;
+//		int proximo;
+//		 
+//		
+//		for(int i = 3; i<=n; i++) {
+//			proximo = primeiro + segundo;
+//			primeiro = segundo;
+//			segundo = proximo;
+//			
+//			System.out.println(proximo);
+//		}
+//		
+//		
 		
 		
 		}
