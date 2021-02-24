@@ -12,14 +12,14 @@ public class Arrays {
 		temperaturas[3] = 34;
 		temperaturas[4] = 33.1;
 
-		System.out.println("O valor da temperatura do dia 1 é: " + temperaturas[2]);
+		System.out.println("O valor da temperatura do dia 1 é: " + temperaturas[0]);
 		
 		System.out.println("O tamanho do array é: " + temperaturas.length);
 		
 		System.out.println("Valores do array: " );
 
 		for(int i= 0; i<temperaturas.length; i++ ) {
-			System.out.println("O valor da temperatura do dia" + (i+1) + "é: " + temperaturas[i]);
+			System.out.println("O valor da temperatura do dia" + (i+1) + " é: " + temperaturas[i]);
 
 		}
 		
