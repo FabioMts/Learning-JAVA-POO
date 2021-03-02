@@ -97,7 +97,7 @@ public class JogoDaVelha {
 				System.out.println("Ninguém ganhou essa partida.");
 			}
 		}
-					
+		
 	}
 
 }

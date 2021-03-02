@@ -8,5 +8,11 @@ public class Carro {
 	double capCombustivel;
 	double consumoCombustivel;
 
+	
+	void exibirAutonomia() {
+		
+	}
 }
+
+
 
