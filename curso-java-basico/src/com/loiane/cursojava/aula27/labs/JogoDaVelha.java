@@ -3,7 +3,6 @@ package com.loiane.cursojava.aula27.labs;
 public class JogoDaVelha {
 
 	char[][] jogoVelha = new char[3][3];
-
 	boolean ganhou = false;
 	int jogada = 1;
 	
