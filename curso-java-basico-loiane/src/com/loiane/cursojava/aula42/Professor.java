@@ -1,0 +1,43 @@
+package com.loiane.cursojava.aula42;
+
+public class Professor {
+	
+	
+	private String salario;
+	private double nomeCurso;
+	
+
+	public String getSalario() {
+		return salario;
+	}
+	public void setSalario(String salario) {
+		this.salario = salario;
+	}
+	public double getNomeCurso() {
+		return nomeCurso;
+	}
+	public void setNomeCurso(double nomeCurso) {
+		this.nomeCurso = nomeCurso;
+	}
+	
+	
+	public double calcularSalarioLiquido() {
+		return 0;
+	}
+	
+	public String obterEtiquetaEndereco() {
+		String s = "Endereco do professor: ";
+		//s += this.getEndereco();
+		
+		return s;
+	}
+	//@Override
+	public void imprimirEtiquetaEndereco() {
+		System.out.println("Imprimindo endereço do Professor.");
+		System.out.println(this.obterEtiquetaEndereco());
+		
+	}
+	
+	
+
+}
