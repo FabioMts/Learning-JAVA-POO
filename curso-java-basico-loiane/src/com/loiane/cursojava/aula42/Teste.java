@@ -16,8 +16,11 @@ public class Teste {
 		//exemplo 2
 		
 		System.out.println(Constantes.URL_BLOG);
-		Constantes.URL_BLOG = "asduahdashu";
+		//Constantes.URL_BLOG = "asduahdashu";
 		System.out.println(Constantes.URL_BLOG);
+		
+		
+		
 		
 	}
 
