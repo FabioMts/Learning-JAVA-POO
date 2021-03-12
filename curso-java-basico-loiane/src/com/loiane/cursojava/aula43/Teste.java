@@ -22,7 +22,7 @@ public class Teste {
 		Aluno aluno2 = new Aluno();
 		
 		aluno2.setCurso("Ciencia da computação");
-		double[] notas2 = {10, 9, 8, 7};
+		double[] notas2 = {9, 8, 7, 6};
 		aluno2.setNotas(notas2);
 		
 		System.out.println(aluno.equals(aluno2));
