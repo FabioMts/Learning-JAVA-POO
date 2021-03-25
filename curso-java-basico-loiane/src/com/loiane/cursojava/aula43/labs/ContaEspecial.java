@@ -28,16 +28,6 @@ public class ContaEspecial extends ContaBancaria{
 	public void setLimite(Double limite) {
 		this.limite = limite;
 	}
-
-
-
-	@Override
-	public boolean sacar(double quantiaASacar) {
-
-		if(saldo >= quantiaASacar) {
-			saldo = saldo - quantiaASacar;
-		}
-	}
 	
 	
 	

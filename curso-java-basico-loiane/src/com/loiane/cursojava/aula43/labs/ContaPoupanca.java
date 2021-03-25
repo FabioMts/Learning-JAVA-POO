@@ -2,7 +2,7 @@ package com.loiane.cursojava.aula43.labs;
 
 public class ContaPoupanca extends ContaBancaria{
 	
-	private Double diaRendimento;
+	private int diaRendimento;
 
 	
 	public ContaPoupanca() {
@@ -10,19 +10,29 @@ public class ContaPoupanca extends ContaBancaria{
 	}
 
 
-	public ContaPoupanca(String nomeCliente, String numConta, Double saldo, Double diaRendimento) {
+	public ContaPoupanca(String nomeCliente, String numConta, Double saldo, int diaRendimento) {
 		super(nomeCliente, numConta, saldo);
 		this.diaRendimento = diaRendimento;
 	}
 
 
-	public Double getDiaRendimento() {
+	public int getDiaRendimento() {
 		return diaRendimento;
 	}
 
 
-	public void setDiaRendimento(Double diaRendimento) {
+	public void setDiaRendimento(int diaRendimento) {
 		this.diaRendimento = diaRendimento;
+	}
+	
+	
+	@Override
+	public String toString() {
+		String s = "ContaPoupanca[";
+		s += " diaRendimento: " + diaRendimento;
+		s += super.toString(); 
+		s += " ]";
+		return s;
 	}
 	
 	
