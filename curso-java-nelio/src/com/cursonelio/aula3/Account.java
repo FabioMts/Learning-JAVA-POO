@@ -1,6 +1,6 @@
 package com.cursonelio.aula3;
 
-public class Account {
+public abstract class Account {
 	
 	
 	protected Integer number;

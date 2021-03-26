@@ -1,22 +1,32 @@
 package com.cursonelio.aula3;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Teste {
 	public static void main(String[] args) {
 		
+		List<Account> list = new ArrayList<>();
 		
-		Account acc1 = new Account(1001, "Alex", 1000.0);
-		acc1.withdraw(200);
+		list.add(new SavingsAccount(1001, "Alex", 500.00, 0.01));
+		list.add(new BusinessAccount(1002, "Maria", 1000.00, 400.0));
+		list.add(new SavingsAccount(1004, "Bob", 300.0, 0.01));
+		list.add(new BusinessAccount(1005,"Anna", 500.0, 500.0));
 		
-		System.out.println(acc1.getBalance());
+		double soma = 0;
 		
-		Account acc2 = new SavingsAccount(1002, "Maria", 1000.0, 0.01);
-		acc2.withdraw(200);
-		System.out.println(acc2.getBalance());
+		for(Account acc : list) {
+			soma += acc.getBalance();
+		}
 		
-		Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
+		System.out.println("Total balance: " + soma);
 		
-		acc3.withdraw(200.0);
-		System.out.println(acc3.getBalance());
+		for(Account acc : list) {
+			acc.deposit(10.0);
+		}
+		for(Account acc : list) {
+			System.out.printf("Update balance for account %d: %.2f%n", acc.getNumber(), acc.getBalance());
+		}
 	}
 
 }
