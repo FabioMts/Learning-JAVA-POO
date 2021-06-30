@@ -24,7 +24,7 @@ public class TesteMatriz {
 			for(int j=0; j<mat[i].length; j++) {
 				if (mat[i][j] == x) {
 					
-					System.out.println("Position" + i + "," + j + ":");
+					System.out.println("Position " + i + "," + j + ":");
 					if(j>0) {
 						System.out.println("Left: " + mat[i][j-1]);
 					}
