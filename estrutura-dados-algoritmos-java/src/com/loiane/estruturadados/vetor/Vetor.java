@@ -42,6 +42,23 @@ public boolean adiciona(String elemento) {
 		return false;
 		
 	}
+
+public boolean adiciona(int posicao, String elemento) {
+	
+	if(!(posicao >=0 && posicao < tamanho)) {
+		throw new IllegalArgumentException("Posicão invalida");
+	}
+	
+	//mover todos os elementos
+	for(int i=this.tamanho-1; i>=posicao; i--) {
+		this.elementos[i+1] = this.elementos[i];	
+	}
+	this.elementos[posicao] = elemento;
+	this.tamanho++;
+	
+	return true;
+}
+
 //OBTER ELEMENTO DE UMA POSIÇÃO
 public String busca(int posicao) {
 	if(!(posicao >=0 && posicao < tamanho)) {
@@ -50,6 +67,7 @@ public String busca(int posicao) {
 	return this.elementos[posicao];
 }
 
+//VERIFICAR SE ELEMENTO EXISTE NO VETOR
 public int busca(String elemento) {
 	for(int i=0; i<this.tamanho; i++) {
 		if(this.elementos[i].equals(elemento)) {
