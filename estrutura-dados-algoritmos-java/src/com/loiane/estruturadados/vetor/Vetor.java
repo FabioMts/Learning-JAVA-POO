@@ -89,6 +89,21 @@ public int busca(String elemento) {
 	}
 	return -1;
 }
+	// B G D E F -> posição a ser removida é 1 (G)
+	// 0 1 2 3 4 -> tamanho do vetor é 5
+	// vetor[1] = vetor[2]
+	// vetor[2] = vetor[3]
+	// vetor[3] = vetor[4]
+	public void remove(int posicao) {
+	if(!(posicao >=0 && posicao < tamanho)) {
+		throw new IllegalArgumentException("Posicão invalida");
+	}
+	for(int i = posicao; i<this.tamanho-1; i++) {
+		this.elementos[i] = this.elementos[i+1];
+	}
+	this.tamanho--;
+	
+}
 
 
 public int tamanho() {
