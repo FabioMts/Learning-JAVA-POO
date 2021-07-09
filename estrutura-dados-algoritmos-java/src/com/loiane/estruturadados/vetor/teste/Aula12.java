@@ -40,7 +40,7 @@ public class Aula12 {
 		System.out.println(arrayList);
 
 		System.out.println(arrayList.size());
-
+		
 		
 	}
 }
