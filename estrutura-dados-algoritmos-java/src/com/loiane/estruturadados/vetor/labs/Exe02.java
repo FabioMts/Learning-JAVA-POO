@@ -19,7 +19,7 @@ public class Exe02 {
 		Lista<String> lista = new Lista<String>(5);
 		lista.adiciona("A");
 		lista.adiciona("B");
-		lista.adiciona("A");
+		lista.adiciona("C");
 		
 		System.out.println(lista.ultimoIndice("A"));
 	}
