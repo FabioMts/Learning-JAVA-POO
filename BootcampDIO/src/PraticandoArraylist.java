@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class PraticandoCollections {
+public class PraticandoArraylist {
 
 	public static void main(String[] args) {
 
@@ -56,6 +56,10 @@ public class PraticandoCollections {
 		boolean listaVazia = nomes2.isEmpty();
 		
 		System.out.println(listaVazia);
+		
+		for(String nomesdoArray: nomes2) {
+			System.out.println(nomesdoArray);
+		}
 		
 	}
 
