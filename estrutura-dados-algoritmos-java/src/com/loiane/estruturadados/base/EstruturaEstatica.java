@@ -3,8 +3,8 @@ package com.loiane.estruturadados.base;
 public class EstruturaEstatica<T> {
 
 
-	private T[] elementos;
-	private int tamanho;
+	protected T[] elementos;
+	protected int tamanho;
 
 	public EstruturaEstatica(int capacidade) {
 		this.elementos = (T[])new Object[capacidade];
@@ -15,7 +15,7 @@ public class EstruturaEstatica<T> {
 		this(10);
 	}
 	
-	public boolean adiciona(T elemento) {
+	protected boolean adiciona(T elemento) {
 		this.aumentaCapacidade();
 		if (this.tamanho < this.elementos.length) {
 			this.elementos[this.tamanho] = elemento;
@@ -26,7 +26,7 @@ public class EstruturaEstatica<T> {
 
 	}
 	
-	public boolean adiciona(int posicao, T elemento) {
+	protected boolean adiciona(int posicao, T elemento) {
 
 		if (!(posicao >= 0 && posicao < tamanho)) {
 			throw new IllegalArgumentException("Posicão invalida");
