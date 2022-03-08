@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -24,6 +27,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="24q5uGDyaLDNrQcJEd68HjJx34d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RelembrandoJava/HelloWorld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunManager">
