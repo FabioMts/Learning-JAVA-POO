@@ -21,7 +21,7 @@ public class Program {
 
         System.out.println(p1);
 
-        
+
 
     }
 
