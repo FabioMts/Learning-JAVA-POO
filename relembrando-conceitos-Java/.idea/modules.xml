@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForEach/ForEach.iml" filepath="$PROJECT_DIR$/ForEach/ForEach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IfKeyWordAndCodeBlocks/IfKeyWordAndCodeBlocks.iml" filepath="$PROJECT_DIR$/IfKeyWordAndCodeBlocks/IfKeyWordAndCodeBlocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" filepath="$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List/List.iml" filepath="$PROJECT_DIR$/List/List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodOverloading/MethodOverloading.iml" filepath="$PROJECT_DIR$/MethodOverloading/MethodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Account/Nelio.Exercise.Account.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Account/Nelio.Exercise.Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Aulao004/Nelio.Exercise.Aulao004.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Aulao004/Nelio.Exercise.Aulao004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.BusinessAccount/Nelio.Exercise.BusinessAccount.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.BusinessAccount/Nelio.Exercise.BusinessAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.CurrencyConverter/Nelio.Exercise.CurrencyConverter.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.CurrencyConverter/Nelio.Exercise.CurrencyConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Employee/Nelio.Exercise.Employee.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Employee/Nelio.Exercise.Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.EmployeeInheritance/Nelio.Exercise.EmployeeInheritance.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.EmployeeInheritance/Nelio.Exercise.EmployeeInheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.EmployeeList/Nelio.Exercise.EmployeeList.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.EmployeeList/Nelio.Exercise.EmployeeList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Post/Nelio.Exercise.Post.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Post/Nelio.Exercise.Post.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Product/Nelio.Exercise.Product.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Product/Nelio.Exercise.Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.ProductInheritance/Nelio.Exercise.ProductInheritance.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.ProductInheritance/Nelio.Exercise.ProductInheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Rectangle/Nelio.Exercise.Rectangle.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Rectangle/Nelio.Exercise.Rectangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Student/Nelio.Exercise.Student.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Student/Nelio.Exercise.Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nelio.Exercise.Worker/Nelio.Exercise.Worker.iml" filepath="$PROJECT_DIR$/Nelio.Exercise.Worker/Nelio.Exercise.Worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primitive Types/Primitive Types.iml" filepath="$PROJECT_DIR$/Primitive Types/Primitive Types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleCodingExercises/SampleCodingExercises.iml" filepath="$PROJECT_DIR$/SampleCodingExercises/SampleCodingExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" filepath="$PROJECT_DIR$/SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpeedConverter/SpeedConverter.iml" filepath="$PROJECT_DIR$/SpeedConverter/SpeedConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" filepath="$PROJECT_DIR$/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vect/Vect.iml" filepath="$PROJECT_DIR$/Vect/Vect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VectWithClass/VectWithClass.iml" filepath="$PROJECT_DIR$/VectWithClass/VectWithClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/relembrando-conceitos-Java.iml" filepath="$PROJECT_DIR$/relembrando-conceitos-Java.iml" />
+    </modules>
+  </component>
+</project>
