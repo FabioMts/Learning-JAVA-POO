@@ -58,11 +58,6 @@ public class Program {
         System.out.println("TOTAL TAXES: $ " + sum);
 
 
-
-
-
-
-
         sc.close();
 
 
