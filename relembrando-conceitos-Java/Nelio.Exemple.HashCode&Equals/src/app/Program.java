@@ -19,8 +19,6 @@ public class Program {
         System.out.println(s1 == s2);
 
 
-
-
     }
 
 }
